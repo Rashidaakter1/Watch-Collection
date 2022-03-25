@@ -1,0 +1,9 @@
+
+.navber{
+    height: 80px;
+    display: flex;
+    top: 0;
+}
+.navbar h1{
+    padding: 50px;
+}

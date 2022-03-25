@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import { useEffect, useState } from 'react';
+import Card from './components/Card/Card';
+
 
 function App() {
+  const [watches,setWatches]=useState([])
+  useEffect(()=>{
+    fetch('data.json')
+    .then(res=>res.json())
+    .then(data=>setWatches(data))
+  },[])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar></Navbar>
+     <div className="card-container">
+     {
+        watches.map(watch=><Card key={watch.id} 
+          watch={watch} ></Card>)
+      }
+     </div>
     </div>
   );
 }

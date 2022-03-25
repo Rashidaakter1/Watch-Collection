@@ -1,0 +1,29 @@
+.card{
+    height: 450px;
+    width: 250px;
+    border: 1px solid rgb(161, 125, 125);
+    border-radius: 5px;
+    margin:40px 20px;
+    position: relative;
+}
+
+.img-container{
+    padding-left:7px;
+ 
+}
+.card-info{
+    padding: 12px;
+}
+
+
+
+
+
+
+.btn-card{
+    width: 100%;
+    padding: 5px 0;
+    position: absolute;
+    border-radius: 5px;
+    bottom: 0;
+}
