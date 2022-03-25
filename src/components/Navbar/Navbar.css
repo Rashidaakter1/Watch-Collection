@@ -1,9 +1,13 @@
 
-.navber{
-    height: 80px;
-    display: flex;
-    top: 0;
+
+.navbar h1,h3{
+    text-align: center;
+  
 }
-.navbar h1{
-    padding: 50px;
+.search-icon{
+
+    display: inline-flex;
+    
+     
+    
 }

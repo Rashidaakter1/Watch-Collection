@@ -8,17 +8,16 @@
 }
 
 .img-container{
-    padding-left:7px;
+    
+    padding-left:8px;
+    margin: 5px;
+    border-radius: 10px;
+    
  
 }
 .card-info{
     padding: 12px;
 }
-
-
-
-
-
 
 .btn-card{
     width: 100%;
@@ -26,4 +25,8 @@
     position: absolute;
     border-radius: 5px;
     bottom: 0;
+}
+.icon{
+    font-size: 16px;
+    padding:0 10px;
 }

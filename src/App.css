@@ -1,7 +1,12 @@
 .App{
   border: 0;
   top: 0;
- 
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(207, 230, 230);
+
 }
 .card-container{
   display: grid;

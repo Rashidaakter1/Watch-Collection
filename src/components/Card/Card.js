@@ -1,9 +1,11 @@
 import React from 'react';
 import './Card.css'
+import {FaShoppingCart} from 'react-icons/fa';
 
-const Card = ({watch}) => {
+const Card = ({addToCart,watch}) => {
     const {name,price,img}=watch
-    console.log(watch)
+   
+    
     return (
         <div className='card'>
             <div className='img-container'>
@@ -14,8 +16,9 @@ const Card = ({watch}) => {
                <h2>Price : {price}</h2>
            </div>
            <div>
-               <button className='btn-card' >
-                   Buy Now
+               <button onClick={()=>addToCart(watch)} className='btn-card' >
+                   Add To Cart
+                    <FaShoppingCart className='icon' ></FaShoppingCart>
                </button>
            </div>
         </div>
