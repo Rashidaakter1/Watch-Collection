@@ -8,6 +8,7 @@ import Cart from './components/Cart/Cart';
 
 
 
+
 function App() {
   
   const [watches,setWatches]=useState([])
@@ -36,7 +37,6 @@ const chooseAgainClick=(pd)=>{
 
 const randomlyChooseOneHandle=(pd)=>{
   const newRandom=[...random,pd]
-  // pd.map(item=>console.log(item));
   setRandom(newRandom)
   Math.floor( Math.random() * 4 )
 }
@@ -60,6 +60,9 @@ console.log(random[0])
               randomlyChooseOneHandle={randomlyChooseOneHandle}
               ></Cart>
             }
+          </div>
+          <div>
+         
           </div>
          
      </div>

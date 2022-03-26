@@ -4,6 +4,7 @@ import Random from '../Random/Random';
 import './Cart.css'
 const Cart = ({cart,chooseAgainClick,randomlyChooseOneHandle}) => {
    
+   
     
     return (
         <div className='cart'> 

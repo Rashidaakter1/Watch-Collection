@@ -1,14 +1,15 @@
 import React from 'react';
 
-const Random = ({randomlyChooseOneHandle}) => {
+const Random = (props) => {
+    console.log(props)
     
     
-    console.log(randomlyChooseOneHandle)
+    
     return (
         <div>
-            <h1>
-              hgg
-            </h1>
+            <h3>
+              Randomly Selected
+            </h3>
         </div>
     );
 };
