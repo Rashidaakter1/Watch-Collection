@@ -10,6 +10,7 @@ function App() {
   
   const [watches,setWatches]=useState([])
   const [cart,setCart]=useState([])
+  const [random,setRandom]=useState([])
   useEffect(()=>{
     fetch('data.json')
     .then(res=>res.json())
@@ -24,7 +25,7 @@ function App() {
       alert('not more than four')
     }
     
-    console.log(cart)
+    
   
 }
 const chooseAgainClick=(pd)=>{
@@ -32,9 +33,11 @@ const chooseAgainClick=(pd)=>{
 }
 
 const randomlyChooseOneHandle=(pd)=>{
-  pd.map(item=>console.log(item))
-
+  
+  // pd.map(item=>console.log(item));
+  setRandom(Math.floor( Math.random() * 4 ))
 }
+console.log(random)
  
   return (
     <div className="App">
