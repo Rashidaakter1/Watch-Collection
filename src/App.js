@@ -6,6 +6,8 @@ import Card from './components/Card/Card';
 import Cart from './components/Cart/Cart';
 
 
+
+
 function App() {
   
   const [watches,setWatches]=useState([])
@@ -22,7 +24,7 @@ function App() {
       setCart(newCart)
     }
     else{
-      alert('not more than four')
+      alert('OOPPS ,YOU ALREADY CHOOSE FOUR WATCHES !!!!!')
     }
     
     
@@ -33,11 +35,12 @@ const chooseAgainClick=(pd)=>{
 }
 
 const randomlyChooseOneHandle=(pd)=>{
-  
+  const newRandom=[...random,pd]
   // pd.map(item=>console.log(item));
-  setRandom(Math.floor( Math.random() * 4 ))
+  setRandom(newRandom)
+  Math.floor( Math.random() * 4 )
 }
-console.log(random)
+console.log(random[0])
  
   return (
     <div className="App">
@@ -58,6 +61,7 @@ console.log(random)
               ></Cart>
             }
           </div>
+         
      </div>
     </div>
   );

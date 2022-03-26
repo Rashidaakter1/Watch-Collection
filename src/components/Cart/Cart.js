@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiOutlineDelete } from 'react-icons/ai';
+import Random from '../Random/Random';
 import './Cart.css'
 const Cart = ({cart,chooseAgainClick,randomlyChooseOneHandle}) => {
    
@@ -18,7 +19,9 @@ const Cart = ({cart,chooseAgainClick,randomlyChooseOneHandle}) => {
             <button onClick={()=>randomlyChooseOneHandle(cart)} className='random-choose-btn'>CHOOSE 1 FOR ME</button>
             <br />
             <button onClick={()=>chooseAgainClick(cart)} className='choose-btn'>CHOOSE AGAIN</button>
-        
+        <div>
+            <Random randomlyChooseOneHandle={randomlyChooseOneHandle} ></Random>
+        </div>
         </div>
     );
 };
