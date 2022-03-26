@@ -2,73 +2,73 @@
     {
         "id":1,
         "name":"Havit M90 Fashion Sports Smart Watch",
-        "price":"1,60",
+        "price":"1,600",
         "img":"https://www.startech.com.bd/image/cache/catalog/smart-watch/havit/m90/m90-green-01-228x228.jpg"
     },
     {
         "id":2,
         "name":"Havit HV-M9006 Smart Bracelet Watch",
-        "price":"2,00",
+        "price":"2,000",
         "img":"https://www.startech.com.bd/image/cache/catalog/smart-watch/havit/m9006/m9006-2-228x228.jpg"
     },
     {
         "id":3,
-        "name":"Havit M90 Fashion Sports Smart Watch",
-        "price":"1,60",
-        "img":"https://www.startech.com.bd/image/cache/catalog/smart-watch/havit/m90/m90-green-01-228x228.jpg"
+        "name":"Xiaomi Touch Screen Square Shape Smart Watch Black",
+        "price":"1,600",
+        "img":"https://www.startech.com.bd/image/cache/catalog/watch/xiaomi/haylou-ls02/haylou-ls02-228x228.jpeg"
     },
     {
         "id":4,
-        "name":"Xiaomi Haylou LS02 Touch Screen Square Shape Smart Watch Black",
-        "price":"205",
-        "img":"https://www.startech.com.bd/image/cache/catalog/watch/xiaomi/haylou-ls02/haylou-ls02-228x228.jpeg"
+        "name":"Zeblaze GTS Smart Watch",
+        "price":"2050",
+        "img":"https://www.startech.com.bd/image/cache/catalog/smart-watch/zeblaze/gts/gts-228x228.jpg"
     },
     {
         "id":5,
         "name":"Havit HV-M93 1.4 Full Touch Screen Smart Watch",
-        "price":"1,600",
+        "price":"2200",
         "img":"https://www.startech.com.bd/image/cache/catalog/smart-watch/havit/hv-m93/hv-m93-green-01-228x228.jpg"
     },
     {
         "id":6,
-        "name":"Havit M90 Fashion Sports Smart Watch",
-        "price":"1,600",
-        "img":"https://www.startech.com.bd/image/cache/catalog/smart-watch/havit/m90/m90-green-01-228x228.jpg"
+        "name":"Xiaomi Haylou Solar LS05-1 Smart Watch Black",
+        "price":"2290",
+        "img":"https://www.startech.com.bd/image/cache/catalog/watch/xiaomi/haylou-solar-ls05-1/haylou-solar-ls05-1-001-228x228.jpg"
     },
     {
         "id":7,
-        "name":"Havit M90 Fashion Sports Smart Watch",
-        "price":"1,600",
-        "img":"https://www.startech.com.bd/image/cache/catalog/smart-watch/havit/m90/m90-green-01-228x228.jpg"
+        "name":"Xiaomi IMILAB KW66 Smart Watch",
+        "price":"2440",
+        "img":"https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/imlab-kw66/kw66-228x228.jpg"
     },
     {
         "id":8,
-        "name":"Havit M90 Fashion Sports Smart Watch",
-        "price":"1,600",
-        "img":"https://www.startech.com.bd/image/cache/catalog/smart-watch/havit/m90/m90-green-01-228x228.jpg"
+        "name":"Zeblaze Lily Women Smart Watch",
+        "price":"2050",
+        "img":"https://www.startech.com.bd/image/cache/catalog/smart-watch/zeblaze/lily/lily-02-228x228.jpeg"
     },
     {
         "id":9,
-        "name":"Havit M90 Fashion Sports Smart Watch",
-        "price":"1,600",
-        "img":"https://www.startech.com.bd/image/cache/catalog/smart-watch/havit/m90/m90-green-01-228x228.jpg"
+        "name":"Zeblaze Neo 3 Smart Watch",
+        "price":"2500",
+        "img":"https://www.startech.com.bd/image/cache/catalog/smart-watch/zeblaze/neo-3/neo-3-228x228.jpeg"
     },
     {
         "id":10,
-        "name":"Havit M90 Fashion Sports Smart Watch",
-        "price":"1,600",
-        "img":"https://www.startech.com.bd/image/cache/catalog/smart-watch/havit/m90/m90-green-01-228x228.jpg"
+        "name":"Havit HV-M9013 1.67'' Full Touch Screen Smart Watch",
+        "price":"2500",
+        "img":"https://www.startech.com.bd/image/cache/catalog/smart-watch/havit/hv-m9013/hv-m9013-black-01-228x228.jpg"
     },
     {
         "id":11,
-        "name":"Havit M90 Fashion Sports Smart Watch",
-        "price":"1,600",
-        "img":"https://www.startech.com.bd/image/cache/catalog/smart-watch/havit/m90/m90-green-01-228x228.jpg"
+        "name":"Xiaomi Haylou GST LS09B Smart Watch (Global Version)",
+        "price":"2550",
+        "img":"https://www.startech.com.bd/image/cache/catalog/watch/xiaomi/haylou-gst-ls09b/haylou-gst-ls09b-01-228x228.jpg"
     },
     {
         "id":12,
-        "name":"Havit M90 Fashion Sports Smart Watch",
-        "price":"1,600",
-        "img":"https://www.startech.com.bd/image/cache/catalog/smart-watch/havit/m90/m90-green-01-228x228.jpg"
+        "name":"Xiaomi Air Metal Body Round Shape Smart Watch Turnish",
+        "price":"2550",
+        "img":"https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/mibro-air/mibro-air-228x228.jpg"
     }
 ]

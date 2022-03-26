@@ -1,13 +1,23 @@
 import React from 'react';
+import { AiOutlineDelete } from 'react-icons/ai';
 import './Cart.css'
-const Cart = () => {
+const Cart = ({cart,chooseAgainClick,randomlyChooseOneHandle}) => {
+   
+    
     return (
-        <div className='cart'>
+        <div className='cart'> 
             <h2>Selected Watches</h2>
-        
-            <button className='random-choose-btn'>Choose 1 For ME</button>
+           {
+               cart.map(item=>
+               <div className='selected-items'>
+               <img src={item.img} alt="" />
+               <p>Name : {item.name}</p>
+               <button><AiOutlineDelete></AiOutlineDelete></button>
+               </div>)
+           }
+            <button onClick={()=>randomlyChooseOneHandle(cart)} className='random-choose-btn'>CHOOSE 1 FOR ME</button>
             <br />
-            <button className='choose-btn'>CHOOSE AGAIN</button>
+            <button onClick={()=>chooseAgainClick(cart)} className='choose-btn'>CHOOSE AGAIN</button>
         
         </div>
     );
